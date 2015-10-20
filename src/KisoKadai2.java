@@ -18,23 +18,23 @@ public class KisoKadai2 {
 	 */
 	public static void main(String[] args) {
 		Random random = new Random();
-		// ƒ^ƒCƒgƒ‹
-		System.out.println("w”“–‚ÄƒQ[ƒ€x");
+		// ã‚¿ã‚¤ãƒˆãƒ«
+		System.out.println("ã€æ•°å½“ã¦ã‚²ãƒ¼ãƒ ã€");
 		System.out.println();
-		// ƒ‹[ƒ‹à–¾•¶‚Ì•\¦
-		System.out.println("yƒ‹[ƒ‹z");
-		System.out.println("ƒRƒ“ƒsƒ…[ƒ^[‚ªƒ‰ƒ“ƒ_ƒ€‚Å•Û‚µ‚½”š‚ğ“–‚Ä‚éƒQ[ƒ€‚Å‚·B");
-		System.out.println("‚ ‚È‚½‚Ì“ü—Í‚µ‚½’l‚É‘Î‚µ‚Ä“š‚¦‚æ‚è‘å‚«‚¢‚©¬‚³‚¢‚©‚Ìƒqƒ“ƒg‚ğ•Ô‚µ‚Ü‚·B");
-		System.out.println("‚»‚Ìƒqƒ“ƒg‚ğŒ³‚ÉƒRƒ“ƒsƒ…[ƒ^[‚Ì•Û‚µ‚Ä‚¢‚é”š‚ğ“–‚Ä‚Ä‚­‚¾‚³‚¢B");
+		// ãƒ«ãƒ¼ãƒ«èª¬æ˜æ–‡ã®è¡¨ç¤º
+		System.out.println("ã€ãƒ«ãƒ¼ãƒ«ã€‘");
+		System.out.println("ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼ãŒãƒ©ãƒ³ãƒ€ãƒ ã§ä¿æŒã—ãŸæ•°å­—ã‚’å½“ã¦ã‚‹ã‚²ãƒ¼ãƒ ã§ã™ã€‚");
+		System.out.println("ã‚ãªãŸã®å…¥åŠ›ã—ãŸå€¤ã«å¯¾ã—ã¦ç­”ãˆã‚ˆã‚Šå¤§ãã„ã‹å°ã•ã„ã‹ã®ãƒ’ãƒ³ãƒˆã‚’è¿”ã—ã¾ã™ã€‚");
+		System.out.println("ãã®ãƒ’ãƒ³ãƒˆã‚’å…ƒã«ã‚³ãƒ³ãƒ”ãƒ¥ãƒ¼ã‚¿ãƒ¼ã®ä¿æŒã—ã¦ã„ã‚‹æ•°å­—ã‚’å½“ã¦ã¦ãã ã•ã„ã€‚");
 		System.out.println();
-		System.out.println("‚»‚ê‚Å‚Í’£‚èØ‚Á‚Ä‚«‚Ü‚µ‚å‚¤I");
+		System.out.println("ãã‚Œã§ã¯å¼µã‚Šåˆ‡ã£ã¦ãã¾ã—ã‚‡ã†ï¼");
 
 		int ans = random.nextInt(100);
 		int userAns = 0;
 
 		while (ans != userAns) {
 
-			System.out.print("1`100‚Ì”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B:");
+			System.out.print("1ï½100ã®æ•°å­—ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ã€‚:");
 			InputStreamReader isr = new InputStreamReader(System.in);
 			BufferedReader br = new BufferedReader(isr);
 			try {
@@ -46,13 +46,13 @@ public class KisoKadai2 {
 
 			}
 			if (ans < userAns) {
-				System.out.println("‚»‚Ì”š‚æ‚è¬‚³‚¢‚Å‚·B");
+				System.out.println("ãã®æ•°å­—ã‚ˆã‚Šå°ã•ã„ã§ã™ã€‚");
 			} else if(ans > userAns){
-				System.out.println("‚»‚Ì”š‚æ‚è‘å‚«‚¢‚Å‚·B");
+				System.out.println("ãã®æ•°å­—ã‚ˆã‚Šå¤§ãã„ã§ã™ã€‚");
 			}
 			
 		}
-		System.out.println("³‰ğI");
+		System.out.println("æ­£è§£ï¼");
 		
 	}
 }
