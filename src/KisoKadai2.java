@@ -18,20 +18,19 @@ public class KisoKadai2 {
 	 */
 	public static void main(String[] args) {
 
-		
-			Random random = new Random();
-			// タイトル
-			System.out.println("『数当てゲーム』");
-			System.out.println();
-			// ルール説明文の表示
-			System.out.println("【ルール】");
-			System.out.println("コンピューターがランダムで保持した数字を当てるゲームです。");
-			System.out.println("あなたの入力した値に対して答えより大きいか小さいかのヒントを返します。");
-			System.out.println("そのヒントを元にコンピューターの保持している数字を当ててください。");
-			
-			int sentaku = 0;
-			while (sentaku != 1) {
-			
+		Random random = new Random();
+		// タイトル
+		System.out.println("『数当てゲーム』");
+		System.out.println();
+		// ルール説明文の表示
+		System.out.println("【ルール】");
+		System.out.println("コンピューターがランダムで保持した数字を当てるゲームです。");
+		System.out.println("あなたの入力した値に対して答えより大きいか小さいかのヒントを返します。");
+		System.out.println("そのヒントを元にコンピューターの保持している数字を当ててください。");
+
+		int sentaku = 0;
+		while (sentaku != 1) {
+
 			System.out.println();
 			System.out.println("それでは張り切ってきましょう！");
 
@@ -81,7 +80,7 @@ public class KisoKadai2 {
 				sentaku = 0;
 
 				if (sentaku == 1) {
-					System.out.println("お疲れ様でした。");
+
 					return;
 
 				} else {
@@ -90,13 +89,6 @@ public class KisoKadai2 {
 				}
 			}
 		}
+		System.out.println("お疲れ様でした。");
 	}
 }
-/*
- * InputStreamReader isr = new InputStreamReader(System.in); BufferedReader br =
- * new BufferedReader(isr); try { String buf = br.readLine();
- * 
- * userAns = Integer.parseInt(buf); } catch (Exception e) { userAns = 0;
- * 
- * }
- */
